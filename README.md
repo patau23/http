@@ -50,7 +50,7 @@ await $http.raw({ url: '/api', ...options })
 await $http.raw('/api', options)
 
 // Access Fetch Native Response
-// $http.natvie('/api', options) and $http.native({ url: '/api' }) is the same as $fetch.native('/api', options) or fetch('/api', options)
+// $http.native('/api', options) and $http.native({ url: '/api' }) is the same as $fetch.native('/api', options) or fetch('/api', options)
 await $http.native({ url: '/api', ...options })
 await $http.native('/api', options)
 ```
